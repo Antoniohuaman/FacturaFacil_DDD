@@ -1,0 +1,66 @@
+# -----------------------------
+# Build folders
+# -----------------------------
+# Ignora bin/ y obj/ en cualquier subcarpeta
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+
+# -----------------------------
+# Rider / VS Code / VS
+# -----------------------------
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# -----------------------------
+# NuGet y paquetes
+# -----------------------------
+*.nupkg
+# paquete de herramientas
+*.snupkg
+# lockfiles
+project.lock.json
+packages.lock.json
+
+# -----------------------------
+# Publicaciones y artefacts
+# -----------------------------
+publish/
+artifacts/
+
+# -----------------------------
+# Logs y cobertura de tests
+# -----------------------------
+*.log
+TestResults/
+coverage/
+*.coverage
+*.trx
+
+# -----------------------------
+# Archivos compilados
+# -----------------------------
+*.dll
+*.exe
+*.pdb
+*.cache
+*.zip
+
+# -----------------------------
+# Otros
+# -----------------------------
+# archivos de usuario de Resharper, Rider, etc.
+*.DotSettings.user
+.idea/
+*.sln.ide.*
+
+# Mac/Linux
+.DS_Store
+
+
+
